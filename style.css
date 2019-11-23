@@ -43,11 +43,11 @@ canvas {
     width: 36px;
     height: 36px;
     cursor: pointer;
-    background-image: url('/assets/icons/outline_lock_open_black_18dp.png');
+    background-image: url('./assets/icons/outline_lock_open_black_18dp.png');
 }
 
 #lockBtn.locked {
-	background-image: url('/assets/icons/outline_lock_black_18dp.png');
+	background-image: url('./assets/icons/outline_lock_black_18dp.png');
 }
 
 #soundBtn {
@@ -57,9 +57,9 @@ canvas {
     width: 36px;
     height: 36px;
     cursor: pointer;
-    background-image: url('/assets/icons/outline_volume_up_black_18dp.png');
+    background-image: url('./assets/icons/outline_volume_up_black_18dp.png');
 }
 
 #soundBtn.off {
-	background-image: url('/assets/icons/outline_volume_off_black_18dp.png');
+	background-image: url('./assets/icons/outline_volume_off_black_18dp.png');
 }
