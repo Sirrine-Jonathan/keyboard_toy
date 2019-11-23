@@ -1,0 +1,65 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body { 
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
+}
+
+canvas {
+	margin: 0;
+	padding: 0;
+}
+
+#letters {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.keyDisplay {
+	font-size: 20px;
+	padding: 14px 0;
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	width: 35%;
+	margin: 10px auto;
+	text-align: center;
+	border: 1px solid #c5c5c5;
+}
+
+#lockBtn {
+	position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background-image: url('/assets/icons/outline_lock_open_black_18dp.png');
+}
+
+#lockBtn.locked {
+	background-image: url('/assets/icons/outline_lock_black_18dp.png');
+}
+
+#soundBtn {
+	position: absolute;
+    top: 7px;
+    right: 50px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background-image: url('/assets/icons/outline_volume_up_black_18dp.png');
+}
+
+#soundBtn.off {
+	background-image: url('/assets/icons/outline_volume_off_black_18dp.png');
+}
